@@ -1,0 +1,8 @@
+com/example/googledriveprocessor/config/GoogleDriveConfig.class
+com/example/googledriveprocessor/service/GoogleSheetsService.class
+com/example/googledriveprocessor/config/GraalRuntimeHints.class
+com/example/googledriveprocessor/GoogleDriveProcessorApplication.class
+com/example/googledriveprocessor/function/DocumentProcessorFunction.class
+com/example/googledriveprocessor/service/DocumentProcessingService.class
+com/example/googledriveprocessor/service/DriveProcessorService.class
+com/example/googledriveprocessor/config/GraalRuntimeHints$Registrar.class

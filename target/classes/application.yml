@@ -1,0 +1,24 @@
+server:
+  port: 8080
+
+google:
+  # Service account credentials file path is read from env GOOGLE_APPLICATION_CREDENTIALS
+  sheets:
+    spreadsheet:
+      id: ${GOOGLE_SHEETS_ID:your-spreadsheet-id-here}
+
+logging:
+  level:
+    root: INFO
+    com.example.googledriveprocessor: DEBUG
+    org.springframework.web: INFO
+    org.apache.tika: WARN
+
+spring:
+  aop:
+    auto: true
+  main:
+    keep-alive: true
+  cloud:
+    function:
+      definition: processDocuments
